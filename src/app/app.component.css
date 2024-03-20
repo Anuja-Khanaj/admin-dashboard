@@ -1,0 +1,10 @@
+
+.dash{
+    display: flex;
+}
+
+.dashboard{
+    width: 80%;
+    margin: 1rem;
+}
+

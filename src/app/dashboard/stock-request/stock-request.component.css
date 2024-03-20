@@ -1,0 +1,41 @@
+.green{
+    background-color:     #6bb40c92;
+    color: 
+    #405F00;
+    /* padding: 2px; */
+}
+
+a{
+    display: flex;
+    justify-content: end;   
+    color: #C1272D
+}
+
+th{
+    color: #C1272D 
+}
+
+table{
+    font-size: 10px;
+    margin-bottom: 0;
+    line-height: 1pc;
+}
+
+a{
+    font-size: 10px;
+}
+
+td{
+    padding: 5px;   
+}
+
+label{
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+.main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

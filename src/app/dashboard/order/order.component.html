@@ -1,0 +1,25 @@
+<div class="main">
+    <h6>All Orders</h6>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Amount</th>
+        <th>Product</th>
+        <th>Organisation</th>
+        <th>Date</th>
+        <th>status</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr  *ngFor="let sale of sales">
+            <td ><label>{{ sale.Amount }}</label></td >
+            <td ><label>{{ sale.Product }}</label></td >
+            <td ><label>{{ sale.Organisation }}</label></td >
+            <td ><label>{{ sale.Date }}</label></td >
+            <td ><label for=""[ngClass]="{'green':true}">{{ sale.status }}</label></td >
+          </tr>
+    </tbody>
+  </table>
+  <a href="">See all</a>
+</div>
+  

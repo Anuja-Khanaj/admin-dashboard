@@ -1,0 +1,36 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.img{
+    height: 43px;
+}
+
+.name{
+    line-height: 1px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.fa-user{
+    background-color: #FFC6C6;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.text p{
+    font-size: 13px;
+}
