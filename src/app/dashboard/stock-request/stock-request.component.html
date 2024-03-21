@@ -3,9 +3,10 @@
   <table class="table">
     <thead>
       <tr>
-        <th>Amount</th>
-        <th>Product</th>
-        <th>Organisation</th>
+        <th>To Org</th>
+        <th>From Org</th>
+        <th>Products</th>
+        <th>City</th>
         <th>Date</th>
         <th>status</th>
       </tr>
@@ -14,9 +15,10 @@
         <tr  *ngFor="let sale of sales">
             <td ><label>{{ sale.Amount }}</label></td >
             <td ><label>{{ sale.Product }}</label></td >
+            <td ><label>{{ sale.Product }}</label></td >
             <td ><label>{{ sale.Organisation }}</label></td >
             <td ><label>{{ sale.Date }}</label></td >
-            <td ><label for=""[ngClass]="{'green':true}">{{ sale.status }}</label></td >
+            <td ><label [ngClass]="{'yellow': sale.status.trim() === 'pending','green':sale.status.trim() === 'complete'}">{{ sale.status }}</label></td >
           </tr>
     </tbody>
   </table>

@@ -8,3 +8,8 @@
     margin: 1rem;
 }
 
+#chart {
+    max-width: 100  px;
+    margin: 35px auto;
+    padding: 0;
+  }

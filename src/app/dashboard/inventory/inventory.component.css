@@ -44,3 +44,16 @@ label{
     padding: 10px;
     border-radius: 5px;
 }
+
+
+select{
+   font-size: 14px;
+    color: #C1272D;
+    background-color: #F7E8E8;
+}
+
+option{
+    color: black;
+    background-color: white;
+    font-size: 14px;
+}

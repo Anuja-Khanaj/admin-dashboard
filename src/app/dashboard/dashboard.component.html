@@ -1,21 +1,101 @@
  <div class="main">
   <h3>Dashboard</h3>
-  <div class="cards">
-    <div class="card">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nulla laborum sapiente?
+  <div class="cards row">
+    <div class="cardr col d-flex">
+    <div class="text">
+      <h6>Retailers </h6>
+      <h4>16300 </h4>
+      <a href=""> Enlarge</a>
     </div>
-    <div class="card">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nulla laborum sapiente?
+    <div id="chart" #chart>
+      <apx-chart 
+      #chart 
+      [series]="chartOptions.series" 
+      [chart]="chartOptions.chart" 
+      [xaxis]="chartOptions.xaxis" 
+      [stroke]="chartOptions.stroke" 
+      [dataLabels]="chartOptions.dataLabels" 
+      [yaxis]="chartOptions.yaxis" 
+      [title]="chartOptions.title" 
+      height="100">
+    </apx-chart>
     </div>
-    <div class="card">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nulla laborum sapiente?
     </div>
-    <div class="card">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nulla laborum sapiente?
-    </div>
-    <div class="card">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nulla laborum sapiente?
-    </div>
+    <div class="cardr col d-flex">
+      <div class="text">
+        <h6>Sub Retailers </h6>
+        <h4>16300</h4>
+        <a href=""> Enlarge</a>
+      </div>
+      <div id="chart" #chart>
+        <apx-chart 
+        #chart 
+        [series]="chartOptions.series" 
+        [chart]="chartOptions.chart" 
+        [xaxis]="chartOptions.xaxis" 
+        [stroke]="chartOptions.stroke" 
+        [dataLabels]="chartOptions.dataLabels" 
+        [yaxis]="chartOptions.yaxis" 
+        [title]="chartOptions.title" 
+        height="100">
+      </apx-chart>
+      </div>
+      </div>
+      <div class="cardr col d-flex">
+        <div class="text">
+          <h6>Total sales </h6>
+          <h4>16300</h4>
+          <a href=""> Enlarge</a>
+        </div>
+        <div id="chart" #chart>
+          <apx-chart 
+          #chart 
+          [series]="chartOptions.series" 
+          [chart]="chartOptions.chart" 
+          [xaxis]="chartOptions.xaxis" 
+          [stroke]="chartOptions.stroke" 
+          [dataLabels]="chartOptions.dataLabels" 
+          [yaxis]="chartOptions.yaxis" 
+          [title]="chartOptions.title" 
+          height="100">
+        </apx-chart>
+        </div>
+        </div>
+        <div class="cardr col d-flex">
+          <div class="text">
+            <h6>Total Orders </h6>
+            <h4>16300</h4>
+            <a href=""> Enlarge</a>
+          </div>
+          <div id="chart" #chart>
+            <apx-chart 
+            #chart 
+            [series]="chartOptions.series" 
+            [chart]="chartOptions.chart" 
+            [xaxis]="chartOptions.xaxis" 
+            [stroke]="chartOptions.stroke" 
+            [dataLabels]="chartOptions.dataLabels" 
+            [yaxis]="chartOptions.yaxis" 
+            [title]="chartOptions.title" 
+            height="100">
+          </apx-chart>
+          </div>
+          </div>
+    <div class="cardr col d-flex">
+      <div class="text">
+        <h6>Total Requests</h6>
+        <h4>16300</h4>
+        <a href=""> Enlarge</a>
+      </div>
+      <div id="chart2">
+        <apx-chart
+          [series]="chartOptions2.series"
+          [chart]="chartOptions2.chart"
+          [labels]="chartOptions2.labels"
+          [responsive]="chartOptions2.responsive"
+        ></apx-chart>
+      </div>
+      </div>
   </div>
   <div class="displays mt-3 row">
    <app-sale class="col"></app-sale>

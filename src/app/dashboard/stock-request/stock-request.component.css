@@ -2,7 +2,12 @@
     background-color:     #6bb40c92;
     color: 
     #405F00;
-    /* padding: 2px; */
+}
+
+.yellow{
+    background-color:    #FFEFB8;
+    color: 
+    #FFC700
 }
 
 a{
